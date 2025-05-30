@@ -1,2 +1,103 @@
-# nabilzone.nfw
-My First website
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>NabilZone</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #e0f2ff;
+        color: #333;
+        text-align: center;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: auto;
+        padding: 40px 20px;
+      }
+
+      .logo {
+        width: 100px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      }
+
+      h1 {
+        color: #004aad;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.6;
+      }
+
+      .gallery {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin: 40px 0;
+      }
+
+      .gallery img {
+        width: 200px;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s;
+      }
+
+      .gallery img:hover {
+        transform: scale(1.05);
+      }
+
+      .about {
+        background-color: white;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        margin-top: 30px;
+      }
+
+      .about h2 {
+        color: #004aad;
+        margin-bottom: 15px;
+      }
+
+      .quote {
+        font-style: italic;
+        color: #555;
+        font-size: 17px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="logo.jpg" alt="NabilZone Logo" class="logo" />
+      <h1>Welcome to NabilZone</h1>
+      <p>This is my creative space on the internet.</p>
+
+      <div class="gallery">
+        <img src="gojo1.jpg" alt="Gojo Image 1" />
+        <img src="gojo2.jpg" alt="Gojo Image 2" />
+      </div>
+
+      <div class="about">
+        <h2>About Us</h2>
+        <p class="quote">
+          “Dream big, work hard, and turn your imagination into reality.”
+        </p>
+        <p>
+          I'm Nabil, a future software engineer and game developer. I'm learning
+          web development step by step using just my phone. This website is a
+          reflection of my journey.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
